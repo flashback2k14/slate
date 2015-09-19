@@ -1,6 +1,8 @@
 Slate
 =====
 
+![Bower](https://img.shields.io/bower/v/pebble-slate.svg)
+
 Slate is a front-end framework for developing Pebble mobile configuration pages.
 It's the fastest way to make a clean UI for a Pebble app's mobile configuration
 page.
@@ -10,24 +12,45 @@ page.
 Getting Started
 ---------------
 
+### Getting Slate
+
 There are only four files that makeup the Slate framework, a CSS file and a
 JavaScript file, and two fonts.
 
 There are two quick ways to getting started with Slate.
 
-### Via Download
+#### Via Download
 
 The CSS and JS files and fonts are also available via download.
 
-[Download Slate 0.0.1 >](https://github.com/pebble/slate/archive/v0.0.1.zip)
+[Download Slate 0.0.3 >](https://github.com/pebble/slate/archive/v0.0.3.zip)
 
-### Via Bower
+#### Via Bower
 
 The CSS and JS files and fonts are also avaliable via Bower.
 
 ```bash
 bower install pebble-slate
 ```
+
+### Zepto.js
+
+Slate is also bundled with [Zepto.js](https://github.com/madrobby/zepto), which
+is "a minimalist JavaScript library for modern browsers with a largely
+jQuery-compatible API."
+
+Video Tutorial
+--------------
+
+A detailed live demo tutorial was given at the Pebble SF Meetup, and can be
+watched in full below.
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/TtP7z6wceqI/0.jpg)](http://www.youtube.com/watch?v=TtP7z6wceqI)
+
+Additionally, the example app used in the video 
+[can be found here](https://github.com/pebble-hacks/slate-watchface-template), 
+while a second example implementation 
+[can be found here](https://github.com/pebble-examples/slate-config-example).
 
 Documentation
 -------------
